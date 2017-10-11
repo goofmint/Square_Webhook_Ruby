@@ -15,14 +15,14 @@ require 'sinatra'
 require 'unirest'
 
 # Your application's access token
-ACCESS_TOKEN = 'REPLACE_ME'
+ACCESS_TOKEN = 'sq0atp-hCgUIoG-UUWDOPvIftrrWQ'
 
 # Your application's webhook signature key, available from your application dashboard
-WEBHOOK_SIGNATURE_KEY = 'REPLACE_ME'
+WEBHOOK_SIGNATURE_KEY = '_ABw6Ih64Z7bLxyddKHOcw'
 
 # The URL that this server is listening on (e.g., 'http://example.com/events')
 # Note that to receive notifications from Square, this cannot be a localhost URL
-WEBHOOK_URL = 'REPLACE_ME'
+WEBHOOK_URL = 'https://fierce-mountain-94709.herokuapp.com/events'
 
 # The base URL for every Connect API request
 CONNECT_HOST = 'https://connect.squareup.com'
