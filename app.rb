@@ -6,6 +6,7 @@
 # This sample requires the following gems:
 #   sinatra (http://www.sinatrarb.com/)
 #   unirest (http://unirest.io/ruby.html)
+$stdout.sync = true
 
 require 'base64'
 require 'digest/sha1'
