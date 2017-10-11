@@ -52,6 +52,10 @@ post '/events' do
     
     puts response
   end
+  
+  if callback_body_json.has_key?('event_type') and callback_body_json['event_type'] == 'TEST_NOTIFICATION'
+    puts callback_body_json
+  end
 end
 
 
